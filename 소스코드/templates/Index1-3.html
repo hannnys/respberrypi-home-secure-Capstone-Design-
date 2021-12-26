@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>Detect</title>
+</head>
+<body>
+<html>
+<head>
+    <meta http-equiv="refresh" content="2">
+    <title>Detect</title>
+    <meta charset="utf-8">
+    <style>
+        div.one {
+	    margin:10px;
+	    padding:10px;
+	    border:4px solid grey;
+	    border-radius:2em;
+	    float:left;
+            width:45%;
+            height:40%;
+        }
+        div.two {
+	    margin:10px;
+	    padding:10px;
+	    border:4px solid grey;
+	    border-radius:2em;
+	    float:left;
+            width:45%;
+            height:40%
+        }
+        div.three {
+	    padding:10px;
+	    margin:10px;
+	    border:4px solid grey;
+	    border-radius:2em;
+            float:left;
+            width:45%;
+            height:40%  
+        }
+        div.four {
+	    padding:10px;
+	    margin:10px;
+	    border:4px solid grey;
+	    border-radius:2em;
+            float:left;
+            width:45%;
+            height:40%
+        }
+	div.loga {
+	    padding:10px;
+	    margin:10px;	
+	    border:4px solid blue;
+	    overflow:scroll;
+	    width:315px;
+	    height:150px;
+	}
+	div.log {
+	    float:left;
+	    margin:15px;
+	}
+    </style>
+</head>
+
+<h1>Sensor Detection</h1>
+<div class="one">
+<h1><p>거실</p></h1>
+<h3>
+    <img src = "/static/pi-black2.png" width="170" height="170">
+    <p>왼쪽 :{{aa1}}</p>
+    <p>가운데 :{{aa2}}</p>
+    <p>오른쪽 :{{aa3}}</p>
+</h3>
+</div>
+<div class="two">
+<h1><p>주방</p></h1>
+<h3>
+    <img src = "/static/pi-white.png" width="170" height="170">
+    <p>왼쪽 :{{bb1}}</p>
+    <p>가운데 :{{bb2}}</p>
+    <p>오른쪽 :{{bb3}}</p>
+</h3>
+</div>
+<div class="three">
+<h1><p>현관</p></h1>
+<h3>
+    <img src = "/static/pi-black1.png"  width="170" height="170">
+    <p>왼쪽 :{{cc1}}</p>
+    <p>가운데 :{{cc2}}</p>
+    <p>오른쪽 :{{cc3}}</p>
+</h3>
+</div>
+
+<div class="four">
+<h1><p>안방</p></h1>
+<h3>
+    <img src = "/static/pi-white.png"  width="170" height="170">
+    <p>왼쪽 :{{dd1}}</p>
+    <p>가운데 :{{dd2}}</p>
+    <p>오른쪽 :{{dd3}}</p>
+</h3>
+</div>
+<div class="log">
+<p><h2>[Detected Log]</h2></p>
+</div>
+<div class="loga">
+<p>{{sstr}}</p>
+</div>
+
+</p>
+</div>
+</body>
+</html>
